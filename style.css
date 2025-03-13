@@ -1,0 +1,51 @@
+:root {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+main {
+    position: relative;
+    top: 100px;
+}
+
+h1 {
+    margin: 50px 0;
+    width: 100vw;
+}
+h2 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+#result-title {
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 0.9rem;
+}
+
+textarea {
+    min-width: 20em;
+    min-height: 6em;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+
+section, #end-screen {
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    width: fit-content;
+}
+
+
+.radio-selector {
+    width: 25em;
+    margin: 20px auto;
+    text-align: start;
+}

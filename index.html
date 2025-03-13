@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="he" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>שאלון רשמי ביותר</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <script src="./input_types.js"></script>
+        <script src="./questions.js"></script>
+
+        <h1>שאלון ראש הגולה</h1>
+
+        <main>
+
+            <section style="display: block;" id="welcome">
+                <h2>
+                    ענו על השאלון שלעליל, וקבעו את מידת ההתאמה שלכם
+                    לתפקיד ראש הגולה.
+                </h2>
+                <button>התחל</button>
+            </section>
+            
+        </main>
+
+        <div id="end-screen">
+            <h2 id="result-title"></h2>
+            <img id="success-img" src="" alt="">
+            <p id="result"></p>
+
+            <button onclick="location.reload()">ענה מחדש</button>
+        </div>
+
+        <script src="./quiz.js"></script>
+    </body>
+</html>
