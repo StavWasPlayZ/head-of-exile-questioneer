@@ -21,9 +21,10 @@ Before wiping out my Windows partition for that other superior operating system 
 ## How it Works
 
 1. [questions.js](./questions.js) describes the object array of `questions`, detailing all of the questions to be presented to the user.
-2. Each question describes an `input_type`, one of 3 values detailed in [input_types.js](./input_types.js), responsible for correctly constructing the web element associated with the question in mind.  
-    > [!NOTE]
-    > I'm pretty sure that I separated `radio` and `scale` because I wanted to style them differently, but oh well.
+2. Each question describes an `input_type`, one of 3 values detailed in [input_types.js](./input_types.js), responsible for correctly constructing the web element associated with the question in mind.
+> [!NOTE]
+> I'm pretty sure that I separated `radio` and `scale` because I wanted to style them differently, but oh well.
+
 3. [quiz.js](./quiz.js), as the main running script, constructs all the questions at once to the render tree using each of their `input_type`'s `construct` method, hiding and showing only the relevant questions during the questioning phase.
 4. The final score is determined by the scale of the picked answers (highest radio button = highest answer). *(The text area one does not account for sh\^t.)*
 
