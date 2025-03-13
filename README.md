@@ -1,6 +1,6 @@
-[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://stavwasplayz.github.io/head-of-exile-questioneer/)
-
 # Head of Exile Questioneer
+
+[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://stavwasplayz.github.io/head-of-exile-questioneer/)
 
 Discover whether you're fit enuogh for the role of Rosh Ha'Gola with this **100%, 1:1 scale-accurate questioneer !!** 💥😱🤯🔥💣😲🌪️💥🤯🤯😱🔥
 
